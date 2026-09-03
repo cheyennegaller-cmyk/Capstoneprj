@@ -5,3 +5,15 @@ JagTrack Module 1 - Written Reflection
 CHOICE POINT #1: COLOR THEME
 OPTION CHOSE: [A]
 EXPLANATION: I chose to do option A becauseI already like the colors of the website. Sense it is something tied to school I think the school colors is a good choice for the design.  Ithink the classic JA black and gold flow nicley together.
+
+NEXT QUARTER PLANNING (myclassesnextquarter.html)
+
+My Classes for Next Quarter:
+ - A Block: [English honors] - [8:20am-9:55am]
+ - B Block: [Precalculus] - [10:00am-11:30am] 
+ - C Block: [TA] - [12:15pm-1:45pm]
+ - D Block: [Intro to Sociology and Current Political Issues] - [1:50pm-3:20pm] 
+
+ Explanation: I choose these classes because I want to challenge myself academically. I am most looking forward to my math, English, and Political class. I think my most difficult class next quarter will be my math class, I enjoy math, but it does not come as easy to me as some of my other subjects. Taking college courses during my D Block is very helpful for getting general education credits out of the way so when I actually get to college I can focus on classes towards my degree. 
+Reflection: I like getting to use rows and columns to make things like the class schedule. I would also say it was pretty difficult just to make sure I coded everything right because if I didn't it was notgoing to work the way I wanted it to. I like the CSS customization because it makes what I am coding feel way more personalized and special. In the future I would add where you could do color gradiates, there might be a way to already do it but I am not sure. I will use the site for planning next quarter to make sure I don't forget what classes I am taking.
+Hours spent: Around 2 hours 
