@@ -192,3 +192,62 @@ body {
 .tab-pane .class-card {
   margin-bottom: 0;
 }
+/* ===== GOOGLE CALENDAR STYLES ===== */
+
+
+.calendar-container {
+  position: relative;
+  padding-bottom: 75%;
+  height: 0;
+  overflow: hidden;
+  margin: 20px 0;
+  border: 2px solid var(--jag-accent);
+  border-radius: 8px;
+  background-color: var(--background-white);
+}
+
+
+.google-calendar-responsive {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  border: 0;
+}
+
+
+@media (min-width: 768px) {
+  .calendar-container {
+    padding-bottom: 56.25%;
+  }
+}
+/* Calendar */
+.calendar-section {
+  background-color: #f5f7fa;
+  padding: 30px;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  border-radius: 10px;
+}
+
+.calendar-container {
+  width: 100%;
+}
+
+.google-calendar-responsive {
+  width: 100%;
+  height: 600px;
+  border: 0;
+}
+
+/* Make the calendar smaller on phones */
+@media (max-width: 767px) {
+  .google-calendar-responsive {
+    height: 450px;
+  }
+
+  .calendar-section {
+    padding: 15px;
+  }
+}

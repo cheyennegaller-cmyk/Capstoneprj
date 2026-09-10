@@ -92,10 +92,6 @@
       </div>
     </div>
   </div>
-
-  <!-- ========================================== -->
-  <!-- 1. TABS LAYOUT: Visible ONLY on small screens (<992px) -->
-  <!-- ========================================== -->
   <div class="container d-block d-lg-none">
     <ul class="nav nav-tabs" id="classTab" role="tablist">
       <li class="nav-item">
@@ -195,12 +191,70 @@
     <p>Access helpful resources and study guides for all your subjects.</p>
   </div>
 
-  <div class="container my-4">
-    <h2>Calendar & Deadlines</h2>
-    <h3>Stay On Track</h3>
-    <p>Never miss an assignment or test date again.</p>
+<div class="container calendar-section">
+  <div class="row row-content">
+    <div class="col text-center">
+      <h2>📅 Calendar &amp; Deadlines</h2>
+      <h3>Stay On Track</h3>
+      <p>
+  Keep track of assignments, tests, and important dates.
+  Check your calendar regularly so you never miss a deadline!
+</p>
+
+<p>
+  Use Agenda view on your phone to see your upcoming assignments more easily.
+</p>
+    </div>
   </div>
 
+  <!-- Calendar View Buttons -->
+  <div class="text-center mb-3">
+    <a
+      href="https://calendar.google.com/calendar/embed?height=600&wkst=1&ctz=America%2FDenver&showPrint=0&mode=MONTH&src=Y2hleWVubmUuZ2FsbGVyQGphamFncy5jb20&src=Y18zZTcyODdhODUzOWUyZTliZWM1Mzg4OTA4MTU4ZThkNWY3NWE4YWVhZWIzNjFkOGU4NjI5OGI3MmE3MzA0NDY5QGdyb3VwLmNhbGVuZGFyLmdvb2dsZS5jb20&src=OWhxZ2QyM3RkajVkaW5nMGhybW90YjdxdmhpbWpsMG1AaW1wb3J0LmNhbGVuZGFyLmdvb2dsZS5jb20&src=ZW4udXNhI2hvbGlkYXlAZ3JvdXAudi5jYWxlbmRhci5nb29nbGUuY29t&color=%23039be5&color=%23616161&color=%239e69af&color=%230b8043"
+      target="_blank"
+      class="btn btn-primary">
+      Month
+    </a>
+
+    <a
+      href="https://calendar.google.com/calendar/embed?height=600&wkst=1&ctz=America%2FDenver&showPrint=0&mode=WEEK&src=Y2hleWVubmUuZ2FsbGVyQGphamFncy5jb20&src=Y18zZTcyODdhODUzOWUyZTliZWM1Mzg4OTA4MTU4ZThkNWY3NWE4YWVhZWIzNjFkOGU4NjI5OGI3MmE3MzA0NDY5QGdyb3VwLmNhbGVuZGFyLmdvb2dsZS5jb20&src=OWhxZ2QyM3RkajVkaW5nMGhybW90YjdxdmhpbWpsMG1AaW1wb3J0LmNhbGVuZGFyLmdvb2dsZS5jb20&src=ZW4udXNhI2hvbGlkYXlAZ3JvdXAudi5jYWxlbmRhci5nb29nbGUuY29t&color=%23039be5&color=%23616161&color=%239e69af&color=%230b8043"
+      target="_blank"
+      class="btn btn-secondary">
+      Week
+    </a>
+
+    <a
+      href="https://calendar.google.com/calendar/embed?height=600&wkst=1&ctz=America%2FDenver&showPrint=0&mode=AGENDA&src=Y2hleWVubmUuZ2FsbGVyQGphamFncy5jb20&src=Y18zZTcyODdhODUzOWUyZTliZWM1Mzg4OTA4MTU4ZThkNWY3NWE4YWVhZWIzNjFkOGU4NjI5OGI3MmE3MzA0NDY5QGdyb3VwLmNhbGVuZGFyLmdvb2dsZS5jb20&src=OWhxZ2QyM3RkajVkaW5nMGhybW90YjdxdmhpbWpsMG1AaW1wb3J0LmNhbGVuZGFyLmdvb2dsZS5jb20&src=ZW4udXNhI2hvbGlkYXlAZ3JvdXAudi5jYWxlbmRhci5nb29nbGUuY29t&color=%23039be5&color=%23616161&color=%239e69af&color=%230b8043"
+      target="_blank"
+      class="btn btn-secondary">
+      Agenda
+    </a>
+  </div>
+
+  <!-- Better option for phones -->
+  <p class="d-block d-md-none text-center">
+    <a
+      href="https://calendar.google.com/calendar/u/0/r"
+      target="_blank"
+      class="btn btn-primary">
+      Open Calendar in New Tab (Better for Mobile)
+    </a>
+  </p>
+
+  <div class="row">
+    <div class="col">
+      <div class="calendar-container">
+        <iframe
+          src="https://calendar.google.com/calendar/embed?height=600&wkst=1&ctz=America%2FDenver&showPrint=0&mode=AGENDA&src=Y2hleWVubmUuZ2FsbGVyQGphamFncy5jb20&src=Y18zZTcyODdhODUzOWUyZTliZWM1Mzg4OTA4MTU4ZThkNWY3NWE4YWVhZWIzNjFkOGU4NjI5OGI3MmE3MzA0NDY5QGdyb3VwLmNhbGVuZGFyLmdvb2dsZS5jb21&src=OWhxZ2QyM3RkajVkaW5nMGhybW90YjdxdmhpbWpsMG1AaW1wb3J0LmNhbGVuZGFyLmdvb2dsZS5jb20&src=ZW4udXNhI2hvbGlkYXlAZ3JvdXAudi5jYWxlbmRhci5nb29nbGUuY29t&color=%23039be5&color=%23616161&color=%239e69af&color=%230b8043"
+          class="google-calendar-responsive"
+          height="600"
+          frameborder="0"
+          scrolling="no">
+        </iframe>
+      </div>
+    </div>
+  </div>
+</div>
   <!-- Cleaned Unified Footer -->
   <footer>
     <div class="container">
