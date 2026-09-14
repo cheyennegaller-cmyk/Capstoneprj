@@ -25,3 +25,24 @@ Calender set up:
 
 Reflection:
 This calendar can help me by letting me stay track of when my assignments are due. I mainly had struglle with the part about getting it from a month to week to agendea sense I really had to do some research on how t try to set it up and to see what would work. I did not really change the calendar, I did add something to say to use the agenda mode on a phone to se better. The view that works the best for me is the week view. I might add when I have shifts for a job as another calendar. 
+
+Color Scheme Design:
+- I just stuck with the normal black and white
+- I just mainloy black and green because green is one of my favorite colors
+- I feel like my color choices just showed tha I prefer the color green
+- I did not
+- I amde sure that I  had light colors text with dark colored background and vise versa
+- I used a color picker to help me choose the shades
+- I first tried more lighter colors for the dark mode but then it didn't make sense for light colros to be the dark mode
+
+Theme Preferences:
+- dark
+- I think it's most useful when I have to look at my computer for a long time beacuse the dark colros are easier on my eyes
+- no
+
+JavaScript Understanding:
+- JavaScript makes the JagTrack website interactive
+- localStorage saves my theme choice in the browser
+- When I click the theme button, the website changes between light mode, dark mode, and sprirt mode
+- The theme stays after I reload the page 
+- In future projects, I can use JavaScript to make buttons

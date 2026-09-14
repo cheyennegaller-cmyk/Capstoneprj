@@ -1,19 +1,61 @@
-/* ===== CSS VARIABLES FOR JAGTRACK THEME ===== */
- /* Official Jefferson Academy Colors: Black & Gold */
+/* ===== CSS VARIABLES FOR LIGHT MODE (DEFAULT) ===== */
 :root {
- /* Primary Brand Colors */
- --jag-black: #000000; /* Jefferson Academy Black */
- --jag-gold: #D7CD89; /* Jefferson Academy Gold */
- --jag-accent: #b1a363; /* Darker gold accent */
-/* Text Colors */
- --text-dark: #000000;
- --text-light: #ffffff;
- --text-muted: #6c757d;
-/* Background Colors */
- --background-light: #f8f7f2; /* Light gold background */
- --background-white: #ffffff;
- --background-dark: #343a40;
- }
+  /* Primary Brand Colors */
+  --jag-black: #000000;
+  --jag-gold: #D7CD89;
+  --jag-accent: #b1a363;
+
+  /* Text Colors */
+  --text-dark: #000000;
+  --text-light: #d1cfcf;
+  --text-muted: #524f4f;
+
+  /* Background Colors */
+  --background-light: #f8f7f2;
+  --background-white: #ffffff;
+  --background-dark: #343a40;
+}
+
+
+/* ===== CSS VARIABLES FOR DARK MODE ===== */
+
+[data-theme="dark"] {
+  /* Primary Brand Colors */
+  --jag-black: #000000;
+  --jag-gold: #3f5f46;
+  --jag-accent: #b7c9bb;
+
+  /* Text Colors */
+  --text-dark: #ffffff;
+  --text-light: #ffffff;
+  --text-muted: #ffffff;
+
+  /* Background Colors */
+  --background-light: #000000;
+  --background-white: #568a63;
+  --background-dark: #568a63;
+}
+
+
+/* ===== CSS VARIABLES FOR JAGUARS SPIRIT MODE ===== */
+
+[data-theme="spirit"] {
+  /* Primary Brand Colors */
+  --jag-black: #000000;
+  --jag-gold: #D7CD89;
+  --jag-accent: #000000;
+
+  /* Text Colors */
+  --text-dark: #000000;
+  --text-light: #ffffff;
+  --text-muted: #000000;
+
+  /* Background Colors */
+  --background-light: #D7CD89;
+  --background-white: #ffffff;
+  --background-dark: #D7CD89;
+}
+
 /* ===== BODY & GENERAL STYLES ===== */
 body {
  font-family: 'Open Sans', sans-serif;
@@ -77,9 +119,10 @@ body {
  }
 /* ===== CONTENT ROW SPACING ===== */
 .row-content {
- padding: 50px 0;
- border-bottom: 1px solid #e9ecef;
- }
+  padding: 50px 0;
+  border-bottom: 1px solid #e9ecef;
+}
+
 .row-content:last-child {
  border-bottom: none;
  }
@@ -122,12 +165,12 @@ footer ul li {
 .navbar-brand {
   font-size: 1.5rem;
   font-weight: bold;
-  color: var(--jag-gold) !important;
+  color: var(--jag-gold);
 }
 
 
 .nav-link {
-  color: var(--text-light) !important;
+  color: var(--text-light);
   font-weight: 500;
   margin: 0 10px;
   transition: color 0.3s ease;
@@ -135,7 +178,7 @@ footer ul li {
 
 
 .nav-link:hover {
-  color: var(--jag-gold) !important;
+  color: var(--jag-gold) ;
 }
 
 
@@ -224,12 +267,14 @@ body {
 }
 /* Calendar */
 .calendar-section {
-  background-color: #f5f7fa;
+  background-color: var(--background-white);
+  color: var(--text-dark);
   padding: 30px;
   margin-top: 30px;
   margin-bottom: 30px;
   border-radius: 10px;
 }
+
 
 .calendar-container {
   width: 100%;
@@ -250,4 +295,22 @@ body {
   .calendar-section {
     padding: 15px;
   }
+}
+#theme-toggle {
+  font-size: 1.5rem;
+  padding: 5px 10px;
+  margin-left: 10px;
+  border-radius: 50%;
+  transition: all 0.3s ease;
+}
+
+
+#theme-toggle:hover {
+  background-color: rgba(255, 255, 255, 0.1);
+  transform: scale(1.1);
+}
+* {
+  transition: background-color 0.3s ease,
+              color 0.3s ease,
+              border-color 0.3s ease;
 }
