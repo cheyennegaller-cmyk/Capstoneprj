@@ -1,18 +1,11 @@
 
 const themeToggle = document.getElementById("theme-toggle");
-
 const themeIcon = document.getElementById("theme-icon");
-
 const themes = ["light", "dark", "spirit"];
-
 let currentTheme = "light";
-
 function setTheme(theme) {
-
   currentTheme = theme;
-
   document.documentElement.setAttribute("data-theme", theme);
-
   // Change the icon
   if (theme === "light") {
     themeIcon.textContent = "☀️";

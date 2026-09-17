@@ -46,3 +46,25 @@ JavaScript Understanding:
 - When I click the theme button, the website changes between light mode, dark mode, and sprirt mode
 - The theme stays after I reload the page 
 - In future projects, I can use JavaScript to make buttons
+
+About Me:
+- cards were used for organization between topics
+- jumbotron was used for a title about me
+- Media objects were used to show a picture of my favorite movie
+- buttons were used for a link to one of my favorite arists spotify profile
+
+Design choices:
+- I choose them because I felt like they can make my page better feel like me
+- I chose my layout by just what made sense to me
+- I had a bit of trouble just making sure all my code is how it's ment to be
+- I am most proud of my customization features like the link to my favroite artist and movie poster
+- It reflects my personality through the little details like the emojis used
+- I would maybe play around with different layouts, even though I am still happy with how I did mine
+- I made sure it was repsonsive by loking at my previous code
+
+Research:
+- Bootstrap doc
+- The hardest part to figure out was just making sure evrything actually works
+- I kept messing up the image and where to place it in the jumbotron section
+- I learned that having to research diffent codes is not a bad thing but actually a really good way to experiment
+- I feel like it was grown alot because I feel like I understand what I am actaully making happen better.

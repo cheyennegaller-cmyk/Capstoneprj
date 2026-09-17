@@ -286,7 +286,7 @@ body {
   border: 0;
 }
 
-/* Make the calendar smaller on phones */
+
 @media (max-width: 767px) {
   .google-calendar-responsive {
     height: 450px;
@@ -313,4 +313,47 @@ body {
   transition: background-color 0.3s ease,
               color 0.3s ease,
               border-color 0.3s ease;
+}
+/* ===== ABOUT ME STYLES ===== */
+
+.about-card {
+  background-color: var(--background-white);
+  border-left: 4px solid var(--jag-accent);
+  border-radius: 8px;
+  padding: 1.5rem;
+  margin-bottom: 1.5rem;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s ease;
+}
+
+.about-card:hover {
+  border-left-color: var(--jag-black);
+  transform: translateY(-3px);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+}
+
+.about-card h3 {
+  color: var(--jag-black);
+  font-weight: bold;
+  margin-bottom: 1rem;
+}
+
+.about-card h4 {
+  color: var(--text-dark);
+  font-weight: bold;
+  margin-bottom: 0.75rem;
+}
+
+.about-card p {
+  color: var(--text-muted);
+  line-height: 1.6;
+}
+
+.about-card li {
+  color: var(--text-muted);
+  margin-bottom: 8px;
+}
+
+.about-card ul {
+  padding-left: 20px;
 }

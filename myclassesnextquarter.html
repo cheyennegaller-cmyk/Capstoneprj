@@ -6,19 +6,14 @@
  <!-- Required meta tags always come first -->
  <meta charset="utf-8" />
  <meta name="viewport" content="width=device-width, initial-scale=1" />
-
-
  <!-- Bootstrap CSS -->
  <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css" />
  <!-- Custom CSS -->
  <link rel="stylesheet" href="css/styles.css" />
-
-
  <title>JagTrack - Next Quarter Planning</title>
 </head>
-
-
 <body>
+
   <nav class="navbar navbar-dark navbar-expand-sm fixed-top">
     <div class="container">
       <a class="navbar-brand" href="index.html"> JagTrack </a>
@@ -27,10 +22,11 @@
       </button>
       <div class="collapse navbar-collapse" id="jagtrackNavbar">
         <ul class="navbar-nav ml-auto">
-          <li class="nav-item active">
+        
             <a class="nav-link" href="index.html">Home</a>
           </li>
           <li class="nav-item">
+            <li class="nav-item active">
             <a class="nav-link" href="myclassesnextquarter.html">Next Quarter</a>
           </li>
           <li class="nav-item">
@@ -39,12 +35,14 @@
           <li class="nav-item">
             <a class="nav-link" href="#" id="theme-toggle">
               <span id="theme-icon">☀️</span>
+              
             </a>
           </li>
         </ul>
       </div>
     </div>
   </nav>
+
  <header class="jumbotron jumbotron-fluid">
    <div class="container">
      <div class="row">
@@ -117,45 +115,55 @@
 </div>
  </div>
 </div>
- <footer>
-   <div class="container">
-     <div class="row">
-       <div class="col-4 col-sm-2 offset-1">
-         <h5>Quick Links</h5>
-         <ul class="list-unstyled">
-           <li><a href="index.html">Home</a></li>
-           <li><a href="myclassesnextquarter.html">Next Quarter Classes</a></li>
-           <li><a href="#">Resources</a></li>
-           <li><a href="#">Contact</a></li>
-         </ul>
-       </div>
-       <div class="col-6 col-sm-5 text-center">
-         <h5>Connect</h5>
-         <a href="#">Canvas Portal</a> |
-         <a href="#">Study Groups</a> |
-         <a href="#">Help Center</a>
-       </div>
-       <div class="col-sm-4 text-center">
-         <h5>Contact</h5>
-         Jefferson Academy Secondary<br />
-         Email: <strong>YOUR_EMAIL_HERE@jajags.com</strong> (Replace with your actual email!)
-       </div>
-     </div>
-   </div>
- </footer>
+
+<!-- ===== FOOTER ===== -->
+  <footer>
+    <div class="container">
+      <div class="row">
+        <div class="col-5 col-sm-2 offset-1">
+          <h5>Quick Links</h5>
+          <ul class="list-unstyled">
+            <li>
+              <a href="index.html">Home</a>
+            </li>
+            <li>
+              <a href="myclassesnextquarter.html">
+                Next Quarter
+              </a>
+            </li>
+            <li>
+              <a href="#">Resources</a>
+            </li>
+            <li>
+              <a href="#">Contact</a>
+            </li>
+          </ul>
+        </div>
+        <div class="col-6 col-sm-5 text-center">
+          <h5>Connect</h5>
+          <a href="#">Canvas Portal</a> |
+          <a href="#">Study Groups</a> |
+          <a href="#">Help Center</a>
+        </div>
+        <div class="col-sm-4 text-center">
+          <h5>Contact</h5>
+          Jefferson Academy Secondary<br />
+          Email:
+          <p style="font-size: 15.5px;"><strong>cheyenne.galler@jajags.com</strong></p>
+        </div>
+      </div>
+    </div>
+
+  </footer>
 
 
- <!-- jQuery must come first, then Popper.js, then the Bootstrap JavaScript plugins.-->
- <script src="node_modules/jquery/dist/jquery.slim.min.js"></script>
- <script src="node_modules/popper.js/dist/umd/popper.min.js"></script>
- <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+  <!-- ===== JAVASCRIPT ===== -->
+  <script src="node_modules/jquery/dist/jquery.slim.min.js"></script>
+  <script src="node_modules/popper.js/dist/umd/popper.min.js"></script>
+  <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
 
-<script src="js/theme-toggle.js"></script>
-<li class="nav-item">
-  <a class="nav-link" href="#" id="theme-toggle">
-    <span id="theme-icon">&#9728;&#65039;</span>
-  </a>
-</li>
+  <!-- Theme Toggle -->
+  <script src="js/theme-toggle.js"></script>
 
 </body>
 
