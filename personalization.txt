@@ -28,8 +28,8 @@ This calendar can help me by letting me stay track of when my assignments are du
 
 Color Scheme Design:
 - I just stuck with the normal black and white
-- I just mainloy black and green because green is one of my favorite colors
-- I feel like my color choices just showed tha I prefer the color green
+- I just mainloy black and pink because pink is one of my favorite colors
+- I feel like my color choices just showed tha I prefer the color pink
 - I did not
 - I amde sure that I  had light colors text with dark colored background and vise versa
 - I used a color picker to help me choose the shades
