@@ -19,7 +19,7 @@ document.addEventListener('DOMContentLoaded', function() {
   } 
   else if (savedTheme === 'spirit') {
     document.documentElement.setAttribute('data-theme', 'spirit');
-    themeIcon.textContent = '🐆';
+    themeIcon.textContent = '🎃';
   } 
   else {
     document.documentElement.setAttribute('data-theme', 'light');
@@ -42,7 +42,7 @@ document.addEventListener('DOMContentLoaded', function() {
     } 
     else if (currentTheme === 'dark') {
       document.documentElement.setAttribute('data-theme', 'spirit');
-      themeIcon.textContent = '🐆';
+      themeIcon.textContent = '🎃';
       localStorage.setItem('theme', 'spirit');
 
    

@@ -2,8 +2,8 @@
 :root {
   /* Primary Brand Colors */
   --jag-black: #000000;
-  --jag-gold: #D7CD89;
-  --jag-accent: #b1a363;
+  --jag-gold: #b2ce93;
+  --jag-accent: #829b66;
 
   /* Text Colors */
   --text-dark: #000000;
@@ -22,18 +22,18 @@
 [data-theme="dark"] {
   /* Primary Brand Colors */
   --jag-black: #000000;
-  --jag-gold: #d172aa;
-  --jag-accent: #b7c9bb;
+  --jag-gold: #acdfdc;
+  --jag-accent: #ffffff;
 
   /* Text Colors */
-  --text-dark: #ffffff;
+  --text-dark: #163532;
   --text-light: #ffffff;
-  --text-muted: #ffffff;
+  --text-muted: #000000;
 
   /* Background Colors */
-  --background-light: #000000;
-  --background-white: #d183ba;
-  --background-dark: #e433db;
+  --background-light: #6aaca7;
+  --background-white: #acdfdc;
+  --background-dark: #acdfdc;
 }
 
 
@@ -42,18 +42,18 @@
 [data-theme="spirit"] {
   /* Primary Brand Colors */
   --jag-black: #000000;
-  --jag-gold: #D7CD89;
-  --jag-accent: #000000;
+  --jag-gold: #c97e4c;
+  --jag-accent: #030303;
 
   /* Text Colors */
   --text-dark: #000000;
   --text-light: #ffffff;
-  --text-muted: #000000;
+  --text-muted: #ffffff;
 
   /* Background Colors */
-  --background-light: #D7CD89;
-  --background-white: #ffffff;
-  --background-dark: #D7CD89;
+  --background-light: #f19e67;
+  --background-white: #f19e67;
+  --background-dark: #f19e67;
 }
 
 /* ===== BODY & GENERAL STYLES ===== */
@@ -328,7 +328,7 @@ body {
 
 
 #theme-toggle:hover {
-  background-color: rgba(255, 255, 255, 0.1);
+  background-color: rgba(235, 25, 25, 0.1);
   transform: scale(1.1);
 }
 
@@ -380,4 +380,12 @@ body {
 
 .about-card ul {
   padding-left: 20px;
+}
+.card-img-top {
+    height: 150px;
+    object-fit: contain;
+}
+
+.card-body {
+    padding: 12px;
 }
